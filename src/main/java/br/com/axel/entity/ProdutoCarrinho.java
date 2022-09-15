@@ -15,8 +15,6 @@ public class ProdutoCarrinho {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idProdutoCarrinho;
 
-    @ManyToOne
-    private Carrinho carrinho;
 
     @Column(name = "idUsuario")
     private Integer idUsuario;
